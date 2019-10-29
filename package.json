@@ -1,0 +1,26 @@
+{
+  "name": "cssweek",
+  "version": "1.0.0",
+  "description": "css version of cssweek",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aruppert/cssweek.git"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "amar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aruppert/cssweek/issues"
+  },
+  "homepage": "https://github.com/aruppert/cssweek#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
