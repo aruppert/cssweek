@@ -1,23 +1,6 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-$prim_color: #ea3f67;
-$sec_color: #ff5426;
-$back_color: #100d17;
-
-body {
-  color: $prim_color;
-  background: $back_color;
-}
-
-.inverted {
-  color: $back_color;
-  background: $prim_color;
-}
-
-.card {
-  color: $sec_color;
-}
+@import "part/variables";
+@import "part/global";
+@import "part/card";
+@import "part/badge";
+@import "part/navbar";
+@import "part/nav__btn";
