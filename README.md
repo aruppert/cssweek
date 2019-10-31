@@ -17,3 +17,7 @@ npm run dev
 ```
 
 Build for production ...
+
+# Autor
+
+AMAR
