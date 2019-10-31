@@ -1,5 +1,5 @@
 .card {
-  height: 130px;
+  height: 150px;
   display: flex;
   flex-flow: row;
   color: $text_color;
@@ -43,8 +43,9 @@
     text-align: center;
   }
   .card__footer {
-    justify-content: flex-end;
-    align-items: flex-end;
+    display: flex;
+    justify-content: flex-start;
+    // align-items: flex-end;
   }
   // color: blue;
 }
