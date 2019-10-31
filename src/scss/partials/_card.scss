@@ -1,7 +1,9 @@
 .card {
-  height: 150px;
+  height: 180px;
+  max-width: 500px;
   display: flex;
   flex-flow: row;
+  // flex-flow: wrap;
   color: $text_color;
   background: $light-color;
   margin: 20px;
@@ -32,8 +34,9 @@
   // background: rgb(212, 157, 117);
   display: flex;
   flex-flow: column;
-  // width: 66%;
+  width: 66%;
   justify-content: space-between;
+
   // // align-content: center;
   // // flex-flow: column;
   // // align-items: center;
@@ -44,7 +47,8 @@
   }
   .card__footer {
     display: flex;
-    justify-content: flex-start;
+    flex-flow: row;
+    justify-content: space-around;
     // align-items: flex-end;
   }
   // color: blue;
