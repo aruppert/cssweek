@@ -1,2 +1,15 @@
 .badge {
+  background: $sec-color;
+  color: $light-color;
+  padding: 3px;
+  border-radius: 5px;
+  // width: auto;
+  margin: 2px;
+
+  &__group {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }

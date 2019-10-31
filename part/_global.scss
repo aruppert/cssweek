@@ -6,6 +6,8 @@
 
 body {
   display: flex;
+  flex-flow: column;
   color: $text_color;
   background: $back_color;
+  text-align: center;
 }
