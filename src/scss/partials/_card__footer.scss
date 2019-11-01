@@ -1,0 +1,19 @@
+.card__footer {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer__btn {
+  // display: flex;
+  // flex-direction: row;
+  width: 25px;
+  height: 25px;
+  // align-items: center;
+  // justify-content: center;
+  padding: 1px;
+  border-radius: 3px;
+  fill: $sec-color;
+}

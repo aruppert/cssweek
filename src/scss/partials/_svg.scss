@@ -1,0 +1,11 @@
+.svg {
+  border: none;
+
+  &__active {
+    fill: $sec-color;
+  }
+
+  &__off {
+    fill: $off-color;
+  }
+}

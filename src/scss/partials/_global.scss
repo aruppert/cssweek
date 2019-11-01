@@ -2,12 +2,24 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  // font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
   display: flex;
   flex-flow: column;
+  // flex-flow: wrap;
   color: $text_color;
   background: $back_color;
+  width: 100vw;
+  height: 100vh;
   text-align: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
 }
