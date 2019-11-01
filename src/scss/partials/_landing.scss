@@ -6,7 +6,22 @@
   justify-content: center;
 }
 
+@keyframes hoverText {
+  from {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(15px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
 .welcome {
   color: white;
   text-decoration: none;
+  animation: hoverText 5s infinite ease-in-out;
 }
